@@ -9,8 +9,8 @@ from aiogram import Bot, Dispatcher
 from aiogram.filters import Command
 from aiogram.types import Message
 
-assert (TELEGRAM_TOKEN := os.getenv("TELEGRAM_TOKEN")), "TELEGRAM_TOKEN undefined"
-assert (OPENAI_TOKEN := os.getenv("OPENAI_TOKEN")), "OPENAI_TOKEN undefined"
+assert (TELEGRAM_TOKEN := os.getenv("6247953312:AAFV_mYUJEzr3vd5qQtRfJCkQU6g54NxmhE")), "TELEGRAM_TOKEN undefined"
+assert (OPENAI_TOKEN := os.getenv("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")), "OPENAI_TOKEN undefined"
 
 openai.api_key = OPENAI_TOKEN
 
